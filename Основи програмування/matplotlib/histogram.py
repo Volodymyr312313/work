@@ -8,5 +8,5 @@ plt.hist(grades, bins=10)
 plt.title('Розподіл оцінок з англійської мови')
 plt.xlabel('Оцінка')
 plt.ylabel('Кількість студентів')
-
+plt.savefig("histogram.png")
 plt.show()
