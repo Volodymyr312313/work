@@ -10,7 +10,7 @@ plt.plot(students, grades, marker='o', label='Середній бал')
 plt.title('Середні оцінки студентів з програмування')
 plt.xlabel('Студенти')
 plt.ylabel('Оцінка (бали)')
-
+plt.savefig("line.png")
 plt.grid()
 plt.legend()
 plt.show()
