@@ -30,5 +30,5 @@ status_counts = data["Статус:"].value_counts()
 print("Середній бал:")
 print(status_counts)
 
-data.to_csv("student_results.csv", encoding="utf-8-sig", index=False)
+data.to_csv("student_results.csv", encoding="utf-8-sig"), index=False)
 print("\nТаблицю збережено у файл 'student_results.csv'")
